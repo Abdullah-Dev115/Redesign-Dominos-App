@@ -1,0 +1,1393 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="852dp"
+  android:background="@drawable/drawable_shape">
+  
+  <ImageView
+    android:id="@+id/container_diet_frame"
+    android:layout_width="540dp"
+    android:layout_height="35dp"
+    android:layout_marginLeft="2dp"
+    android:layout_marginTop="118dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside" />
+  
+  <LinearLayout
+    android:layout_width="368dp"
+    android:layout_height="570dp"
+    android:layout_marginLeft="16dp"
+    android:layout_marginTop="179dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|top"
+    android:orientation="vertical">
+    
+    <FrameLayout
+      android:layout_width="368dp"
+      android:layout_height="97dp"
+      android:layout_gravity="left">
+      
+      <FrameLayout
+        android:layout_width="368dp"
+        android:layout_height="97dp"
+        android:layout_gravity="top|left"
+        android:background="@drawable/drawable_shape_1">
+        
+        <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="15dp"
+          android:layout_marginLeft="122dp"
+          android:layout_marginTop="12.5dp"
+          android:layout_marginBottom="-0.5dp"
+          android:layout_gravity="top|left"
+          android:gravity="left|center_vertical"
+          android:includeFontPadding="false"
+          android:maxLines="1"
+          android:singleLine="true"
+          android:text=" Crispy Supreme Pizza"
+          android:textColor="#FF000000"
+          android:textSize="11dp" />
+        
+        <TextView
+          android:layout_width="137dp"
+          android:layout_height="36dp"
+          android:layout_marginLeft="122dp"
+          android:layout_marginTop="31dp"
+          android:layout_gravity="top|left"
+          android:gravity="center_horizontal|top"
+          android:includeFontPadding="false"
+          android:lineHeight="12.37dp"
+          android:text="Per 2 medium slices: 34g fat, 60g carbs, 4g fiber, 10g sugars, 30g protein"
+          android:textColor="#FF000000"
+          android:textSize="10dp" />
+        
+        <LinearLayout
+          android:layout_width="97dp"
+          android:layout_height="16dp"
+          android:layout_marginLeft="122dp"
+          android:layout_marginTop="69dp"
+          android:layout_gravity="top|left"
+          android:background="@drawable/drawable_shape_2"
+          android:clipToPadding="false"
+          android:gravity="center"
+          android:orientation="horizontal"
+          android:paddingLeft="22dp"
+          android:paddingRight="22dp">
+          
+          <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="16dp"
+            android:gravity="left|center_vertical"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="Price:  50SR"
+            android:textColor="#FFFFFFFF"
+            android:textSize="12dp" />
+        </LinearLayout>
+        
+        <LinearLayout
+          android:layout_width="59dp"
+          android:layout_height="16dp"
+          android:layout_marginLeft="293dp"
+          android:layout_marginTop="55dp"
+          android:layout_gravity="top|left"
+          android:background="@drawable/drawable_shape_3"
+          android:clipToPadding="false"
+          android:gravity="center"
+          android:orientation="horizontal"
+          android:paddingLeft="22dp"
+          android:paddingRight="22dp">
+          
+          <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="16dp"
+            android:gravity="left|center_vertical"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="500 cal"
+            android:textColor="#FFFFFFFF"
+            android:textSize="12dp" />
+        </LinearLayout>
+        
+        <LinearLayout
+          android:layout_width="59dp"
+          android:layout_height="16dp"
+          android:layout_marginLeft="293dp"
+          android:layout_marginTop="55dp"
+          android:layout_gravity="top|left"
+          android:background="@drawable/drawable_shape_4"
+          android:clipToPadding="false"
+          android:gravity="center"
+          android:orientation="horizontal"
+          android:paddingLeft="22dp"
+          android:paddingRight="22dp">
+          
+          <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="16dp"
+            android:gravity="left|center_vertical"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="660 cal"
+            android:textColor="#FFFFFFFF"
+            android:textSize="12dp" />
+        </LinearLayout>
+        
+        <ImageView
+          android:layout_width="28dp"
+          android:layout_height="25.85dp"
+          android:layout_marginLeft="293dp"
+          android:layout_marginTop="26dp"
+          android:layout_gravity="top|left"
+          android:scaleType="centerInside"
+          android:src="@drawable/drawable_image" />
+        
+        <ImageView
+          android:layout_width="29dp"
+          android:layout_height="29dp"
+          android:layout_marginLeft="321dp"
+          android:layout_marginTop="26dp"
+          android:layout_gravity="top|left"
+          android:scaleType="centerInside"
+          android:src="@drawable/drawable_image_1" />
+      </FrameLayout>
+      
+      <ImageView
+        android:layout_width="100dp"
+        android:layout_height="88dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="4dp"
+        android:layout_gravity="top|left"
+        android:scaleType="centerInside"
+        android:src="@drawable/drawable_image_2" />
+    </FrameLayout>
+    
+    <FrameLayout
+      android:layout_width="368dp"
+      android:layout_height="97dp"
+      android:layout_marginTop="17dp"
+      android:layout_gravity="left">
+      
+      <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/drawable_shape_5">
+        
+        <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="15dp"
+          android:layout_marginLeft="122dp"
+          android:layout_marginTop="12.5dp"
+          android:layout_marginBottom="-0.5dp"
+          android:layout_gravity="top|left"
+          android:gravity="left|center_vertical"
+          android:includeFontPadding="false"
+          android:maxLines="1"
+          android:singleLine="true"
+          android:text="Papa Murphy&#39;s Herb Chicken Mediterranean"
+          android:textColor="#FF000000"
+          android:textSize="11dp" />
+        
+        <TextView
+          android:layout_width="137dp"
+          android:layout_height="36dp"
+          android:layout_marginLeft="122dp"
+          android:layout_marginTop="31dp"
+          android:layout_gravity="top|left"
+          android:gravity="center_horizontal|top"
+          android:includeFontPadding="false"
+          android:lineHeight="12.37dp"
+          android:text="Per 2 medium slices: 22g fat, 56g carbs, 4g fiber, 10g sugars, 26g protein"
+          android:textColor="#FF000000"
+          android:textSize="10dp" />
+        
+        <LinearLayout
+          android:layout_width="97dp"
+          android:layout_height="16dp"
+          android:layout_marginLeft="122dp"
+          android:layout_marginTop="69dp"
+          android:layout_gravity="top|left"
+          android:background="@drawable/drawable_shape_6"
+          android:clipToPadding="false"
+          android:gravity="center"
+          android:orientation="horizontal"
+          android:paddingLeft="22dp"
+          android:paddingRight="22dp">
+          
+          <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="16dp"
+            android:gravity="left|center_vertical"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="Price:  50SR"
+            android:textColor="#FFFFFFFF"
+            android:textSize="12dp" />
+        </LinearLayout>
+        
+        <LinearLayout
+          android:layout_width="59dp"
+          android:layout_height="16dp"
+          android:layout_marginLeft="293dp"
+          android:layout_marginTop="55dp"
+          android:layout_gravity="top|left"
+          android:background="@drawable/drawable_shape_7"
+          android:clipToPadding="false"
+          android:gravity="center"
+          android:orientation="horizontal"
+          android:paddingLeft="22dp"
+          android:paddingRight="22dp">
+          
+          <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="16dp"
+            android:gravity="left|center_vertical"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="500 cal"
+            android:textColor="#FFFFFFFF"
+            android:textSize="12dp" />
+        </LinearLayout>
+        
+        <LinearLayout
+          android:layout_width="59dp"
+          android:layout_height="16dp"
+          android:layout_marginLeft="293dp"
+          android:layout_marginTop="55dp"
+          android:layout_gravity="top|left"
+          android:background="@drawable/drawable_shape_8"
+          android:clipToPadding="false"
+          android:gravity="center"
+          android:orientation="horizontal"
+          android:paddingLeft="22dp"
+          android:paddingRight="22dp">
+          
+          <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="16dp"
+            android:gravity="left|center_vertical"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="540 cal"
+            android:textColor="#FFFFFFFF"
+            android:textSize="12dp" />
+        </LinearLayout>
+        
+        <ImageView
+          android:layout_width="28dp"
+          android:layout_height="25.85dp"
+          android:layout_marginLeft="293dp"
+          android:layout_marginTop="26dp"
+          android:layout_gravity="top|left"
+          android:scaleType="centerInside"
+          android:src="@drawable/drawable_image_3" />
+        
+        <ImageView
+          android:layout_width="29dp"
+          android:layout_height="29dp"
+          android:layout_marginLeft="321dp"
+          android:layout_marginTop="26dp"
+          android:layout_gravity="top|left"
+          android:scaleType="centerInside"
+          android:src="@drawable/drawable_image_4" />
+      </FrameLayout>
+      
+      <ImageView
+        android:layout_width="102dp"
+        android:layout_height="87dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="4dp"
+        android:layout_gravity="top|left"
+        android:scaleType="centerInside"
+        android:src="@drawable/drawable_image_5" />
+    </FrameLayout>
+    
+    <FrameLayout
+      android:layout_width="368dp"
+      android:layout_height="97dp"
+      android:layout_marginTop="17dp"
+      android:layout_gravity="left">
+      
+      <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/drawable_shape_9">
+        
+        <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="28dp"
+          android:layout_marginLeft="122dp"
+          android:layout_marginTop="13dp"
+          android:layout_gravity="top|left"
+          android:gravity="left|top"
+          android:includeFontPadding="false"
+          android:lineHeight="13.61dp"
+          android:text="Chuck E. Cheese 5-Meat Combo\n"
+          android:textColor="#FF000000"
+          android:textSize="11dp" />
+        
+        <TextView
+          android:layout_width="137dp"
+          android:layout_height="36dp"
+          android:layout_marginLeft="122dp"
+          android:layout_marginTop="31dp"
+          android:layout_gravity="top|left"
+          android:gravity="center_horizontal|top"
+          android:includeFontPadding="false"
+          android:lineHeight="12.37dp"
+          android:text="Per 3 medium slices:  30g fat, 54g carbs, 3g fiber, 3g sugars, 30g protein"
+          android:textColor="#FF000000"
+          android:textSize="10dp" />
+        
+        <LinearLayout
+          android:layout_width="97dp"
+          android:layout_height="16dp"
+          android:layout_marginLeft="122dp"
+          android:layout_marginTop="69dp"
+          android:layout_gravity="top|left"
+          android:background="@drawable/drawable_shape_10"
+          android:clipToPadding="false"
+          android:gravity="center"
+          android:orientation="horizontal"
+          android:paddingLeft="22dp"
+          android:paddingRight="22dp">
+          
+          <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="16dp"
+            android:gravity="left|center_vertical"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="Price:  50SR"
+            android:textColor="#FFFFFFFF"
+            android:textSize="12dp" />
+        </LinearLayout>
+        
+        <LinearLayout
+          android:layout_width="59dp"
+          android:layout_height="16dp"
+          android:layout_marginLeft="293dp"
+          android:layout_marginTop="55dp"
+          android:layout_gravity="top|left"
+          android:background="@drawable/drawable_shape_11"
+          android:clipToPadding="false"
+          android:gravity="center"
+          android:orientation="horizontal"
+          android:paddingLeft="22dp"
+          android:paddingRight="22dp">
+          
+          <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="16dp"
+            android:gravity="left|center_vertical"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="500 cal"
+            android:textColor="#FFFFFFFF"
+            android:textSize="12dp" />
+        </LinearLayout>
+        
+        <LinearLayout
+          android:layout_width="59dp"
+          android:layout_height="16dp"
+          android:layout_marginLeft="293dp"
+          android:layout_marginTop="55dp"
+          android:layout_gravity="top|left"
+          android:background="@drawable/drawable_shape_12"
+          android:clipToPadding="false"
+          android:gravity="center"
+          android:orientation="horizontal"
+          android:paddingLeft="22dp"
+          android:paddingRight="22dp">
+          
+          <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="16dp"
+            android:gravity="left|center_vertical"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="500 cal"
+            android:textColor="#FFFFFFFF"
+            android:textSize="12dp" />
+        </LinearLayout>
+        
+        <ImageView
+          android:layout_width="28dp"
+          android:layout_height="25.85dp"
+          android:layout_marginLeft="293dp"
+          android:layout_marginTop="26dp"
+          android:layout_gravity="top|left"
+          android:scaleType="centerInside"
+          android:src="@drawable/drawable_image_6" />
+        
+        <ImageView
+          android:layout_width="29dp"
+          android:layout_height="29dp"
+          android:layout_marginLeft="321dp"
+          android:layout_marginTop="26dp"
+          android:layout_gravity="top|left"
+          android:scaleType="centerInside"
+          android:src="@drawable/drawable_image_7" />
+      </FrameLayout>
+      
+      <ImageView
+        android:layout_width="108dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="4dp"
+        android:layout_gravity="left"
+        android:scaleType="centerCrop"
+        android:src="@drawable/drawable_image_8" />
+    </FrameLayout>
+    
+    <FrameLayout
+      android:layout_width="368dp"
+      android:layout_height="97dp"
+      android:layout_marginTop="17dp"
+      android:layout_gravity="left">
+      
+      <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/drawable_shape_13">
+        
+        <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="28dp"
+          android:layout_marginLeft="122dp"
+          android:layout_marginTop="13dp"
+          android:layout_gravity="top|left"
+          android:gravity="left|top"
+          android:includeFontPadding="false"
+          android:lineHeight="13.61dp"
+          android:text="Little Caesars Classic Beef\n"
+          android:textColor="#FF000000"
+          android:textSize="11dp" />
+        
+        <TextView
+          android:layout_width="137dp"
+          android:layout_height="36dp"
+          android:layout_marginLeft="122dp"
+          android:layout_marginTop="31dp"
+          android:layout_gravity="top|left"
+          android:gravity="center_horizontal|top"
+          android:includeFontPadding="false"
+          android:lineHeight="12.37dp"
+          android:text="Per 1/4 large pizza:  21g fat, 62g carbs, 3g fiber, 3g sugars, 26.5g protein"
+          android:textColor="#FF000000"
+          android:textSize="10dp" />
+        
+        <LinearLayout
+          android:layout_width="97dp"
+          android:layout_height="16dp"
+          android:layout_marginLeft="122dp"
+          android:layout_marginTop="69dp"
+          android:layout_gravity="top|left"
+          android:background="@drawable/drawable_shape_14"
+          android:clipToPadding="false"
+          android:gravity="center"
+          android:orientation="horizontal"
+          android:paddingLeft="22dp"
+          android:paddingRight="22dp">
+          
+          <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="16dp"
+            android:gravity="left|center_vertical"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="Price:  50SR"
+            android:textColor="#FFFFFFFF"
+            android:textSize="12dp" />
+        </LinearLayout>
+        
+        <LinearLayout
+          android:layout_width="59dp"
+          android:layout_height="16dp"
+          android:layout_marginLeft="293dp"
+          android:layout_marginTop="55dp"
+          android:layout_gravity="top|left"
+          android:background="@drawable/drawable_shape_15"
+          android:clipToPadding="false"
+          android:gravity="center"
+          android:orientation="horizontal"
+          android:paddingLeft="22dp"
+          android:paddingRight="22dp">
+          
+          <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="16dp"
+            android:gravity="left|center_vertical"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="500 cal"
+            android:textColor="#FFFFFFFF"
+            android:textSize="12dp" />
+        </LinearLayout>
+        
+        <LinearLayout
+          android:layout_width="59dp"
+          android:layout_height="16dp"
+          android:layout_marginLeft="293dp"
+          android:layout_marginTop="55dp"
+          android:layout_gravity="top|left"
+          android:background="@drawable/drawable_shape_16"
+          android:clipToPadding="false"
+          android:gravity="center"
+          android:orientation="horizontal"
+          android:paddingLeft="22dp"
+          android:paddingRight="22dp">
+          
+          <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="16dp"
+            android:gravity="left|center_vertical"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="439 cal"
+            android:textColor="#FFFFFFFF"
+            android:textSize="12dp" />
+        </LinearLayout>
+        
+        <ImageView
+          android:layout_width="28dp"
+          android:layout_height="25.85dp"
+          android:layout_marginLeft="293dp"
+          android:layout_marginTop="26dp"
+          android:layout_gravity="top|left"
+          android:scaleType="centerInside"
+          android:src="@drawable/drawable_image_9" />
+        
+        <ImageView
+          android:layout_width="29dp"
+          android:layout_height="29dp"
+          android:layout_marginLeft="321dp"
+          android:layout_marginTop="26dp"
+          android:layout_gravity="top|left"
+          android:scaleType="centerInside"
+          android:src="@drawable/drawable_image_10" />
+      </FrameLayout>
+      
+      <ImageView
+        android:layout_width="107dp"
+        android:layout_height="85dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="top|left"
+        android:scaleType="centerInside"
+        android:src="@drawable/drawable_image_11" />
+    </FrameLayout>
+    
+    <FrameLayout
+      android:layout_width="368dp"
+      android:layout_height="97dp"
+      android:layout_marginTop="17dp"
+      android:layout_gravity="left">
+      
+      <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/drawable_shape_17">
+        
+        <FrameLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:background="@drawable/drawable_shape_18">
+          
+          <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/drawable_shape_19">
+            
+            <FrameLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@drawable/drawable_shape_20">
+              
+              <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/drawable_shape_21">
+                
+                <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="15dp"
+                  android:layout_marginLeft="122dp"
+                  android:layout_marginTop="12.5dp"
+                  android:layout_marginBottom="-0.5dp"
+                  android:layout_gravity="top|left"
+                  android:gravity="left|center_vertical"
+                  android:includeFontPadding="false"
+                  android:maxLines="1"
+                  android:singleLine="true"
+                  android:text="California Pizza Kitchen Crispy  "
+                  android:textColor="#FF000000"
+                  android:textSize="11dp" />
+                
+                <TextView
+                  android:layout_width="137dp"
+                  android:layout_height="36dp"
+                  android:layout_marginLeft="122dp"
+                  android:layout_marginTop="31dp"
+                  android:layout_gravity="top|left"
+                  android:gravity="center_horizontal|top"
+                  android:includeFontPadding="false"
+                  android:lineHeight="12.37dp"
+                  android:text="Per 2 slices:  24g fat, 44g carbs, 2g fiber, 2g sugars, 26g sugars"
+                  android:textColor="#FF000000"
+                  android:textSize="10dp" />
+                
+                <LinearLayout
+                  android:layout_width="97dp"
+                  android:layout_height="16dp"
+                  android:layout_marginLeft="122dp"
+                  android:layout_marginTop="69dp"
+                  android:layout_gravity="top|left"
+                  android:background="@drawable/drawable_shape_22"
+                  android:clipToPadding="false"
+                  android:gravity="center"
+                  android:orientation="horizontal"
+                  android:paddingLeft="22dp"
+                  android:paddingRight="22dp">
+                  
+                  <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="16dp"
+                    android:gravity="left|center_vertical"
+                    android:includeFontPadding="false"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:text="Price:  50SR"
+                    android:textColor="#FFFFFFFF"
+                    android:textSize="12dp" />
+                </LinearLayout>
+                
+                <LinearLayout
+                  android:layout_width="59dp"
+                  android:layout_height="16dp"
+                  android:layout_marginLeft="293dp"
+                  android:layout_marginTop="55dp"
+                  android:layout_gravity="top|left"
+                  android:background="@drawable/drawable_shape_23"
+                  android:clipToPadding="false"
+                  android:gravity="center"
+                  android:orientation="horizontal"
+                  android:paddingLeft="22dp"
+                  android:paddingRight="22dp">
+                  
+                  <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="16dp"
+                    android:gravity="left|center_vertical"
+                    android:includeFontPadding="false"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:text="500 cal"
+                    android:textColor="#FFFFFFFF"
+                    android:textSize="12dp" />
+                </LinearLayout>
+                
+                <LinearLayout
+                  android:layout_width="59dp"
+                  android:layout_height="16dp"
+                  android:layout_marginLeft="293dp"
+                  android:layout_marginTop="55dp"
+                  android:layout_gravity="top|left"
+                  android:background="@drawable/drawable_shape_24"
+                  android:clipToPadding="false"
+                  android:gravity="center"
+                  android:orientation="horizontal"
+                  android:paddingLeft="22dp"
+                  android:paddingRight="22dp">
+                  
+                  <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="16dp"
+                    android:gravity="left|center_vertical"
+                    android:includeFontPadding="false"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:text="510  cal"
+                    android:textColor="#FFFFFFFF"
+                    android:textSize="12dp" />
+                </LinearLayout>
+                
+                <ImageView
+                  android:layout_width="28dp"
+                  android:layout_height="25.85dp"
+                  android:layout_marginLeft="293dp"
+                  android:layout_marginTop="26dp"
+                  android:layout_gravity="top|left"
+                  android:scaleType="centerInside"
+                  android:src="@drawable/drawable_image_12" />
+                
+                <ImageView
+                  android:layout_width="29dp"
+                  android:layout_height="29dp"
+                  android:layout_marginLeft="321dp"
+                  android:layout_marginTop="26dp"
+                  android:layout_gravity="top|left"
+                  android:scaleType="centerInside"
+                  android:src="@drawable/drawable_image_13" />
+              </FrameLayout>
+            </FrameLayout>
+          </FrameLayout>
+        </FrameLayout>
+      </FrameLayout>
+      
+      <ImageView
+        android:layout_width="108dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="6dp"
+        android:layout_gravity="left"
+        android:scaleType="centerCrop"
+        android:src="@drawable/drawable_image_14" />
+    </FrameLayout>
+    
+    <LinearLayout
+      android:layout_width="368dp"
+      android:layout_height="325dp"
+      android:layout_marginTop="17dp"
+      android:layout_gravity="left"
+      android:background="@drawable/drawable_shape_25"
+      android:gravity="left|top"
+      android:orientation="vertical">
+      
+      <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="97dp"
+        android:background="@drawable/drawable_shape_26">
+        
+        <ImageView
+          android:layout_width="109dp"
+          android:layout_height="84dp"
+          android:layout_marginLeft="5dp"
+          android:layout_marginTop="7dp"
+          android:layout_gravity="top|left"
+          android:scaleType="centerInside"
+          android:src="@drawable/drawable_image_15" />
+        
+        <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="15dp"
+          android:layout_marginLeft="122dp"
+          android:layout_marginTop="12.5dp"
+          android:layout_marginBottom="-0.5dp"
+          android:layout_gravity="top|left"
+          android:gravity="left|center_vertical"
+          android:includeFontPadding="false"
+          android:maxLines="1"
+          android:singleLine="true"
+          android:text="Little Caesars Large Hula Hawaiian (Ham)"
+          android:textColor="#FF000000"
+          android:textSize="11dp" />
+        
+        <TextView
+          android:layout_width="137dp"
+          android:layout_height="36dp"
+          android:layout_marginLeft="122dp"
+          android:layout_marginTop="31dp"
+          android:layout_gravity="top|left"
+          android:gravity="center_horizontal|top"
+          android:includeFontPadding="false"
+          android:lineHeight="12.37dp"
+          android:text="Per 1/4 pizza: 17g fat, 68g carbs, 3.5g fiber, 7.5g sugars, 28.5g protein"
+          android:textColor="#FF000000"
+          android:textSize="10dp" />
+        
+        <LinearLayout
+          android:layout_width="97dp"
+          android:layout_height="16dp"
+          android:layout_marginLeft="122dp"
+          android:layout_marginTop="69dp"
+          android:layout_gravity="top|left"
+          android:background="@drawable/drawable_shape_27"
+          android:clipToPadding="false"
+          android:gravity="center"
+          android:orientation="horizontal"
+          android:paddingLeft="22dp"
+          android:paddingRight="22dp">
+          
+          <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="16dp"
+            android:gravity="left|center_vertical"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="Price:  50SR"
+            android:textColor="#FFFFFFFF"
+            android:textSize="12dp" />
+        </LinearLayout>
+        
+        <LinearLayout
+          android:layout_width="59dp"
+          android:layout_height="16dp"
+          android:layout_marginLeft="293dp"
+          android:layout_marginTop="55dp"
+          android:layout_gravity="top|left"
+          android:background="@drawable/drawable_shape_28"
+          android:clipToPadding="false"
+          android:gravity="center"
+          android:orientation="horizontal"
+          android:paddingLeft="22dp"
+          android:paddingRight="22dp">
+          
+          <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="16dp"
+            android:gravity="left|center_vertical"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="500 cal"
+            android:textColor="#FFFFFFFF"
+            android:textSize="12dp" />
+        </LinearLayout>
+        
+        <LinearLayout
+          android:layout_width="59dp"
+          android:layout_height="16dp"
+          android:layout_marginLeft="293dp"
+          android:layout_marginTop="55dp"
+          android:layout_gravity="top|left"
+          android:background="@drawable/drawable_shape_29"
+          android:clipToPadding="false"
+          android:gravity="center"
+          android:orientation="horizontal"
+          android:paddingLeft="22dp"
+          android:paddingRight="22dp">
+          
+          <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="16dp"
+            android:gravity="left|center_vertical"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="500 cal"
+            android:textColor="#FFFFFFFF"
+            android:textSize="12dp" />
+        </LinearLayout>
+        
+        <ImageView
+          android:layout_width="28dp"
+          android:layout_height="25.85dp"
+          android:layout_marginLeft="293dp"
+          android:layout_marginTop="26dp"
+          android:layout_gravity="top|left"
+          android:scaleType="centerInside"
+          android:src="@drawable/drawable_image_16" />
+        
+        <ImageView
+          android:layout_width="29dp"
+          android:layout_height="29dp"
+          android:layout_marginLeft="321dp"
+          android:layout_marginTop="26dp"
+          android:layout_gravity="top|left"
+          android:scaleType="centerInside"
+          android:src="@drawable/drawable_image_17" />
+      </FrameLayout>
+      
+      <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="17dp"
+        android:layout_weight="1"
+        android:background="@drawable/drawable_shape_30">
+        
+        <ImageView
+          android:layout_width="109dp"
+          android:layout_height="84dp"
+          android:layout_marginLeft="5dp"
+          android:layout_marginTop="7dp"
+          android:layout_gravity="top|left"
+          android:scaleType="centerInside"
+          android:src="@drawable/drawable_image_18" />
+        
+        <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="15dp"
+          android:layout_marginLeft="122dp"
+          android:layout_marginTop="12.5dp"
+          android:layout_marginBottom="-0.5dp"
+          android:layout_gravity="top|left"
+          android:gravity="left|center_vertical"
+          android:includeFontPadding="false"
+          android:maxLines="1"
+          android:singleLine="true"
+          android:text="Potato, taleggio and zucchini pizzas"
+          android:textColor="#FF000000"
+          android:textSize="11dp" />
+        
+        <TextView
+          android:layout_width="137dp"
+          android:layout_height="36dp"
+          android:layout_marginLeft="122dp"
+          android:layout_marginTop="31dp"
+          android:layout_gravity="top|left"
+          android:gravity="left|top"
+          android:includeFontPadding="false"
+          android:lineHeight="12.37dp"
+          android:text="Pizza Sauce, Mozzarella, Chicken Tikka, Onions, Green Peppers with Mint Sauce"
+          android:textColor="#FF000000"
+          android:textSize="10dp" />
+        
+        <LinearLayout
+          android:layout_width="97dp"
+          android:layout_height="16dp"
+          android:layout_marginLeft="122dp"
+          android:layout_marginTop="69dp"
+          android:layout_gravity="top|left"
+          android:background="@drawable/drawable_shape_31"
+          android:clipToPadding="false"
+          android:gravity="center"
+          android:orientation="horizontal"
+          android:paddingLeft="22dp"
+          android:paddingRight="22dp">
+          
+          <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="16dp"
+            android:gravity="left|center_vertical"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="Price:  50SR"
+            android:textColor="#FFFFFFFF"
+            android:textSize="12dp" />
+        </LinearLayout>
+        
+        <LinearLayout
+          android:layout_width="59dp"
+          android:layout_height="16dp"
+          android:layout_marginLeft="293dp"
+          android:layout_marginTop="55dp"
+          android:layout_gravity="top|left"
+          android:background="@drawable/drawable_shape_32"
+          android:clipToPadding="false"
+          android:gravity="center"
+          android:orientation="horizontal"
+          android:paddingLeft="22dp"
+          android:paddingRight="22dp">
+          
+          <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="16dp"
+            android:gravity="left|center_vertical"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="500 cal"
+            android:textColor="#FFFFFFFF"
+            android:textSize="12dp" />
+        </LinearLayout>
+        
+        <LinearLayout
+          android:layout_width="59dp"
+          android:layout_height="16dp"
+          android:layout_marginLeft="293dp"
+          android:layout_marginTop="55dp"
+          android:layout_gravity="top|left"
+          android:background="@drawable/drawable_shape_33"
+          android:clipToPadding="false"
+          android:gravity="center"
+          android:orientation="horizontal"
+          android:paddingLeft="22dp"
+          android:paddingRight="22dp">
+          
+          <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="16dp"
+            android:gravity="left|center_vertical"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="500 cal"
+            android:textColor="#FFFFFFFF"
+            android:textSize="12dp" />
+        </LinearLayout>
+        
+        <ImageView
+          android:layout_width="28dp"
+          android:layout_height="25.85dp"
+          android:layout_marginLeft="293dp"
+          android:layout_marginTop="26dp"
+          android:layout_gravity="top|left"
+          android:scaleType="centerInside"
+          android:src="@drawable/drawable_image_19" />
+        
+        <ImageView
+          android:layout_width="29dp"
+          android:layout_height="29dp"
+          android:layout_marginLeft="321dp"
+          android:layout_marginTop="26dp"
+          android:layout_gravity="top|left"
+          android:scaleType="centerInside"
+          android:src="@drawable/drawable_image_20" />
+      </FrameLayout>
+      
+      <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="17dp"
+        android:layout_weight="1"
+        android:background="@drawable/drawable_shape_34">
+        
+        <ImageView
+          android:layout_width="109dp"
+          android:layout_height="84dp"
+          android:layout_marginLeft="5dp"
+          android:layout_marginTop="7dp"
+          android:layout_gravity="top|left"
+          android:scaleType="centerInside"
+          android:src="@drawable/drawable_image_21" />
+        
+        <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="15dp"
+          android:layout_marginLeft="122dp"
+          android:layout_marginTop="12.5dp"
+          android:layout_marginBottom="-0.5dp"
+          android:layout_gravity="top|left"
+          android:gravity="left|center_vertical"
+          android:includeFontPadding="false"
+          android:maxLines="1"
+          android:singleLine="true"
+          android:text="Pizza with peperonata"
+          android:textColor="#FF000000"
+          android:textSize="11dp" />
+        
+        <TextView
+          android:layout_width="137dp"
+          android:layout_height="36dp"
+          android:layout_marginLeft="122dp"
+          android:layout_marginTop="31dp"
+          android:layout_gravity="top|left"
+          android:gravity="left|top"
+          android:includeFontPadding="false"
+          android:lineHeight="12.37dp"
+          android:text="Pizza Sauce, Mozzarella, Chicken Tikka, Onions, Green Peppers with Mint Sauce"
+          android:textColor="#FF000000"
+          android:textSize="10dp" />
+        
+        <LinearLayout
+          android:layout_width="97dp"
+          android:layout_height="16dp"
+          android:layout_marginLeft="122dp"
+          android:layout_marginTop="69dp"
+          android:layout_gravity="top|left"
+          android:background="@drawable/drawable_shape_35"
+          android:clipToPadding="false"
+          android:gravity="center"
+          android:orientation="horizontal"
+          android:paddingLeft="22dp"
+          android:paddingRight="22dp">
+          
+          <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="16dp"
+            android:gravity="left|center_vertical"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="Price:  50SR"
+            android:textColor="#FFFFFFFF"
+            android:textSize="12dp" />
+        </LinearLayout>
+        
+        <LinearLayout
+          android:layout_width="59dp"
+          android:layout_height="16dp"
+          android:layout_marginLeft="293dp"
+          android:layout_marginTop="55dp"
+          android:layout_gravity="top|left"
+          android:background="@drawable/drawable_shape_36"
+          android:clipToPadding="false"
+          android:gravity="center"
+          android:orientation="horizontal"
+          android:paddingLeft="22dp"
+          android:paddingRight="22dp">
+          
+          <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="16dp"
+            android:gravity="left|center_vertical"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="500 cal"
+            android:textColor="#FFFFFFFF"
+            android:textSize="12dp" />
+        </LinearLayout>
+        
+        <LinearLayout
+          android:layout_width="59dp"
+          android:layout_height="16dp"
+          android:layout_marginLeft="293dp"
+          android:layout_marginTop="55dp"
+          android:layout_gravity="top|left"
+          android:background="@drawable/drawable_shape_37"
+          android:clipToPadding="false"
+          android:gravity="center"
+          android:orientation="horizontal"
+          android:paddingLeft="22dp"
+          android:paddingRight="22dp">
+          
+          <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="16dp"
+            android:gravity="left|center_vertical"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="500 cal"
+            android:textColor="#FFFFFFFF"
+            android:textSize="12dp" />
+        </LinearLayout>
+        
+        <ImageView
+          android:layout_width="28dp"
+          android:layout_height="25.85dp"
+          android:layout_marginLeft="293dp"
+          android:layout_marginTop="26dp"
+          android:layout_gravity="top|left"
+          android:scaleType="centerInside"
+          android:src="@drawable/drawable_image_22" />
+        
+        <ImageView
+          android:layout_width="29dp"
+          android:layout_height="29dp"
+          android:layout_marginLeft="321dp"
+          android:layout_marginTop="26dp"
+          android:layout_gravity="top|left"
+          android:scaleType="centerInside"
+          android:src="@drawable/drawable_image_23" />
+      </FrameLayout>
+    </LinearLayout>
+  </LinearLayout>
+  
+  <ImageView
+    android:id="@+id/container_diet_rectangle"
+    android:layout_width="877dp"
+    android:layout_height="53dp"
+    android:layout_marginLeft="-484dp"
+    android:layout_marginTop="106dp"
+    android:layout_gravity="top|left"
+    android:background="@drawable/container_diet_rectangle"
+    android:scaleType="centerInside" />
+  
+  <FrameLayout
+    android:id="@+id/container_categories"
+    android:layout_width="325dp"
+    android:layout_height="35dp"
+    android:layout_marginLeft="14dp"
+    android:layout_marginTop="118dp"
+    android:layout_gravity="top|left">
+    
+    <FrameLayout
+      android:id="@+id/container_group"
+      android:layout_width="1415dp"
+      android:layout_height="35dp"
+      android:layout_gravity="top|left">
+      
+      <LinearLayout
+        android:id="@+id/container_frame_vegetarian"
+        android:layout_width="159dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="1256dp"
+        android:background="@drawable/container_frame_vegetarian"
+        android:clipToPadding="false"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="9.5dp"
+        android:paddingLeft="22dp"
+        android:paddingRight="22dp"
+        android:paddingTop="9.5dp">
+        
+        <TextView
+          android:id="@+id/text_vegetarian"
+          android:layout_width="wrap_content"
+          android:layout_height="16dp"
+          android:alpha="0.4000000059604645"
+          android:gravity="left|center_vertical"
+          android:includeFontPadding="false"
+          android:maxLines="1"
+          android:singleLine="true"
+          android:text="Vegetarian"
+          android:textColor="#FF000000"
+          android:textSize="12dp" />
+      </LinearLayout>
+      
+      <LinearLayout
+        android:id="@+id/container_frame_student_offers"
+        android:layout_width="159dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="182dp"
+        android:layout_marginRight="1074dp"
+        android:background="@drawable/container_frame_student_offers"
+        android:clipToPadding="false"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="9.5dp"
+        android:paddingLeft="22dp"
+        android:paddingRight="22dp"
+        android:paddingTop="9.5dp">
+        
+        <TextView
+          android:id="@+id/text_student_offers"
+          android:layout_width="wrap_content"
+          android:layout_height="16dp"
+          android:alpha="0.4000000059604645"
+          android:gravity="left|center_vertical"
+          android:includeFontPadding="false"
+          android:maxLines="1"
+          android:singleLine="true"
+          android:text="Student Offers"
+          android:textColor="#FF000000"
+          android:textSize="12dp" />
+      </LinearLayout>
+      
+      <LinearLayout
+        android:id="@+id/container_frame_family_meals"
+        android:layout_width="159dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="358dp"
+        android:layout_marginRight="898dp"
+        android:background="@drawable/container_frame_family_meals"
+        android:clipToPadding="false"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="9.5dp"
+        android:paddingLeft="22dp"
+        android:paddingRight="22dp"
+        android:paddingTop="9.5dp">
+        
+        <TextView
+          android:id="@+id/text_family_meals"
+          android:layout_width="wrap_content"
+          android:layout_height="16dp"
+          android:gravity="left|center_vertical"
+          android:includeFontPadding="false"
+          android:maxLines="1"
+          android:singleLine="true"
+          android:text="Family Meals"
+          android:textColor="#FF777777"
+          android:textSize="12dp" />
+      </LinearLayout>
+      
+      <LinearLayout
+        android:id="@+id/container_frame_diet"
+        android:layout_width="159dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="540dp"
+        android:layout_marginRight="716dp"
+        android:background="@drawable/container_frame_diet"
+        android:clipToPadding="false"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="9.5dp"
+        android:paddingLeft="22dp"
+        android:paddingRight="22dp"
+        android:paddingTop="9.5dp">
+        
+        <TextView
+          android:id="@+id/text_diet"
+          android:layout_width="wrap_content"
+          android:layout_height="16dp"
+          android:gravity="left|center_vertical"
+          android:includeFontPadding="false"
+          android:maxLines="1"
+          android:singleLine="true"
+          android:text="Diet"
+          android:textColor="#FFFBFBFB"
+          android:textSize="12dp" />
+      </LinearLayout>
+    </FrameLayout>
+  </FrameLayout>
+  
+  <FrameLayout
+    android:id="@+id/container_frame"
+    android:layout_width="393dp"
+    android:layout_height="100dp"
+    android:layout_marginTop="14dp"
+    android:layout_gravity="top|left">
+    
+    <ImageView
+      android:id="@+id/container_line"
+      android:layout_width="393dp"
+      android:layout_height="106dp"
+      android:layout_marginTop="-14dp"
+      android:layout_gravity="top|left"
+      android:scaleType="centerInside"
+      android:src="@drawable/container_line" />
+    
+    <ImageView
+      android:id="@+id/image_status_icons"
+      android:layout_width="69dp"
+      android:layout_height="14dp"
+      android:layout_marginRight="29dp"
+      android:layout_gravity="top|right"
+      android:scaleType="centerInside"
+      android:src="@drawable/image_status_icons" />
+    
+    <ImageView
+      android:id="@+id/image_colon"
+      android:layout_width="33dp"
+      android:layout_height="15dp"
+      android:layout_marginRight="144dp"
+      android:layout_marginBottom="41.5dp"
+      android:layout_gravity="center"
+      android:scaleType="centerInside"
+      android:src="@drawable/image_colon" />
+    
+    <ImageView
+      android:id="@+id/image"
+      android:layout_width="25dp"
+      android:layout_height="23dp"
+      android:layout_marginLeft="360dp"
+      android:layout_marginTop="58dp"
+      android:layout_gravity="top|left"
+      android:scaleType="centerInside"
+      android:src="@drawable/image" />
+    
+    <ImageView
+      android:id="@+id/image1"
+      android:layout_width="25dp"
+      android:layout_height="22dp"
+      android:layout_marginLeft="11dp"
+      android:layout_marginTop="59dp"
+      android:layout_gravity="top|left"
+      android:scaleType="centerInside"
+      android:src="@drawable/image1" />
+    
+    <ImageView
+      android:id="@+id/image2"
+      android:layout_width="57dp"
+      android:layout_height="60dp"
+      android:layout_marginLeft="164dp"
+      android:layout_marginTop="40dp"
+      android:layout_gravity="top|left"
+      android:scaleType="centerInside"
+      android:src="@drawable/image2" />
+  </FrameLayout>
+</FrameLayout>
